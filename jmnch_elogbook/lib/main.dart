@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
+import 'package:jmnchelogbook/pages/caseroutines.dart';
 import 'pages/baseApp.dart';
 import 'pages/login.dart';
 import 'pages/home.dart';
@@ -19,11 +20,13 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
          home: BaseApp(),
           routes: <String, WidgetBuilder>{
-           '/LoginAsResident' : (context) => LogInResident(),
+           
+            '/LoginAsResident' : (context) => LogInResident(),
             '/BaseApp' : (context) => BaseApp(),
             '/home' : (context) => MyApp2(),
             '/thesis' : (context) => Thesis(),
             '/test' : (context) => Test(),
+            '/caserotation' : (context) => CaseRoutine(),
           }
     );
 
