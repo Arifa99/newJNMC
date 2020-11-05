@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "255552067255",
+    "firebase_url": "https://jnmch-elogbook.firebaseio.com",
+    "project_id": "jnmch-elogbook",
+    "storage_bucket": "jnmch-elogbook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255552067255:android:4537609f23af337ba81f32",
+        "android_client_info": {
+          "package_name": "com.amu.jmnchelogbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255552067255-10mje5k103aodov5qf9vinm39u6tom1o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK5GfMPPk27cfOrXEq1wjNaY1BuKbKDf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255552067255-10mje5k103aodov5qf9vinm39u6tom1o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
